@@ -15,6 +15,10 @@
 		49C8233221F187F800BAF534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8233121F187F800BAF534 /* main.m */; };
 		49C8233C21F187F800BAF534 /* GesturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8233B21F187F800BAF534 /* GesturesTests.m */; };
 		49C8234721F187F800BAF534 /* GesturesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8234621F187F800BAF534 /* GesturesUITests.m */; };
+		49C8235621F18B6400BAF534 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8235521F18B6400BAF534 /* PanViewController.m */; };
+		49C8235921F18B7300BAF534 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8235821F18B7300BAF534 /* TapViewController.m */; };
+		49C8235C21F195EB00BAF534 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8235B21F195EB00BAF534 /* PinchViewController.m */; };
+		49C8235F21F1A40900BAF534 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C8235E21F1A40900BAF534 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		49C8234221F187F800BAF534 /* GesturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C8234621F187F800BAF534 /* GesturesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesUITests.m; sourceTree = "<group>"; };
 		49C8234821F187F800BAF534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C8235421F18B6400BAF534 /* PanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		49C8235521F18B6400BAF534 /* PanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		49C8235721F18B7300BAF534 /* TapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		49C8235821F18B7300BAF534 /* TapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		49C8235A21F195EB00BAF534 /* PinchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		49C8235B21F195EB00BAF534 /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		49C8235D21F1A40900BAF534 /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		49C8235E21F1A40900BAF534 /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,14 @@
 				49C8232521F187F100BAF534 /* ViewController.h */,
 				49C8232621F187F100BAF534 /* ViewController.m */,
 				49C8232821F187F100BAF534 /* Main.storyboard */,
+				49C8235D21F1A40900BAF534 /* SwipeViewController.h */,
+				49C8235E21F1A40900BAF534 /* SwipeViewController.m */,
+				49C8235A21F195EB00BAF534 /* PinchViewController.h */,
+				49C8235B21F195EB00BAF534 /* PinchViewController.m */,
+				49C8235421F18B6400BAF534 /* PanViewController.h */,
+				49C8235521F18B6400BAF534 /* PanViewController.m */,
+				49C8235721F18B7300BAF534 /* TapViewController.h */,
+				49C8235821F18B7300BAF534 /* TapViewController.m */,
 				49C8232B21F187F800BAF534 /* Assets.xcassets */,
 				49C8232D21F187F800BAF534 /* LaunchScreen.storyboard */,
 				49C8233021F187F800BAF534 /* Info.plist */,
@@ -262,9 +282,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C8235621F18B6400BAF534 /* PanViewController.m in Sources */,
+				49C8235C21F195EB00BAF534 /* PinchViewController.m in Sources */,
+				49C8235921F18B7300BAF534 /* TapViewController.m in Sources */,
 				49C8232721F187F100BAF534 /* ViewController.m in Sources */,
 				49C8233221F187F800BAF534 /* main.m in Sources */,
 				49C8232421F187F100BAF534 /* AppDelegate.m in Sources */,
+				49C8235F21F1A40900BAF534 /* SwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
